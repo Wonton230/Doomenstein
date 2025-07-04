@@ -1,0 +1,68 @@
+<Definitions>
+  <!-- Pistol -->
+  <WeaponDefinition name="Pistol" refireTime="0.75" rayCount="1" rayCone="0.0" rayRange="40.0" rayDamage="10.0~15.0" rayImpulse="4.0"
+					magSize="12" reloadTime="1.75" heatPerShot="-1" cooldownTime="-1" isEnergyBased="false" chargeShotTime="-1" maxHeat="-1" 
+					isExplosive="false" blastDamage="0" blastRadius="0" blastImpulse="0"
+					loopSound="false">
+    <HUD shader="Default" baseTexture="Data/Images/Hud_Base.png" reticleTexture="Data/Images/Reticle.png" reticleSize="16,16" spriteSize="256,256" spritePivot="0.5,0.0">
+      <Animation name="Idle" shader="Default" spriteSheet="Data/Images/Weapon_Pistol.png" cellCount="5,1" secondsPerFrame="0.1" startFrame="0" endFrame="0"/>
+      <Animation name="Attack" shader="Default" spriteSheet="Data/Images/Weapon_Pistol.png" cellCount="5,1" secondsPerFrame="0.1" startFrame="1" endFrame="3" />
+	  <Animation name="Reload" shader="Default" spriteSheet="Data/Images/Weapon_Pistol.png" cellCount="5,1" secondsPerFrame="0.2" startFrame="2" endFrame="4" playbackMode="Pingpong" />
+    </HUD>
+    <Sounds>
+        <Sound sound="Fire" name="Data/Audio/PistolFire.wav"/>
+		<Sound sound="Reload" name="Data/Audio/AmmoSound.mp3"/>
+    </Sounds>
+  </WeaponDefinition>
+  <!-- Pistol2 -->
+  <WeaponDefinition name="Pistol2" refireTime="0.75"  projectileCount="1" projectileActor="CoinProjectile" projectileCone="0.0" projectileSpeed="8.0" projectileColor="255,199,70,255" projectileFallSpeed="5.0"
+					magSize="12" reloadTime="1.75" heatPerShot="-1" cooldownTime="-1" isEnergyBased="false" chargeShotTime="-1" maxHeat="-1"
+					isExplosive="false" blastDamage="0" blastRadius="0" blastImpulse="0"
+					loopSound="false">
+    <HUD shader="Default" baseTexture="Data/Images/Hud_Base.png" reticleTexture="Data/Images/Reticle.png" reticleSize="16,16" spriteSize="256,256" spritePivot="0.5,0.0">
+      <Animation name="Idle" shader="Default" spriteSheet="Data/Images/CoinHand.png" cellCount="3,1" secondsPerFrame="0.1" startFrame="0" endFrame="0"/>
+      <Animation name="Attack" shader="Default" spriteSheet="Data/Images/CoinHand.png" cellCount="3,1" secondsPerFrame="0.1" startFrame="0" endFrame="2"/>
+    </HUD>
+    <Sounds>
+        <Sound sound="Fire" name="Data/Audio/PistolFire.wav"/>
+    </Sounds>
+  </WeaponDefinition>
+  <!-- Plasma Rifle -->
+  <WeaponDefinition name="PlasmaRifle" refireTime="0.1" projectileCount="1" projectileActor="PlasmaProjectile" projectileCone="4.0" projectileSpeed="8.0"
+					magSize="-1" reloadTime="-1" heatPerShot="1.2" cooldownTime="3.5" isEnergyBased="true" chargeShotTime="3" maxHeat="25"
+					isExplosive="false" blastDamage="0" blastRadius="0" blastImpulse="0"
+					loopSound="false">
+    <HUD shader="Default" baseTexture="Data/Images/Hud_Base.png" reticleTexture="Data/Images/Reticle.png" reticleSize="16,16" spriteSize="256,256" spritePivot="0.5,0.0">
+      <Animation name="Idle" shader="Default" spriteSheet="Data/Images/Weapon_Plasma.png" cellCount="4,1" secondsPerFrame="0.125" startFrame="0" endFrame="0" />
+      <Animation name="Attack" shader="Default" spriteSheet="Data/Images/Weapon_Plasma.png" cellCount="4,1" secondsPerFrame="0.025" startFrame="1" endFrame="2" />
+    </HUD>
+    <Sounds>
+        <Sound sound="Fire" name="Data/Audio/PlasmaFire.wav"/>
+		<Sound sound="Beep" name="Data/Audio/BeepWarning.mp3"/>
+		<Sound sound="Steam" name="Data/Audio/SteamRelease.mp3"/>
+		<Sound sound="Recharge" name="Data/Audio/CoolDownComplete.mp3"/>
+    </Sounds>
+  </WeaponDefinition>
+  <!--  Trace Rifle  -->
+  <WeaponDefinition name="TraceRifle" refireTime="0.00167" rayCount="1" rayCone="0.0" rayRange="40.0" rayDamage=".1~.35" rayImpulse="0.0" rayRender="true" rayColor="216,137,243,255"
+					magSize="-1" reloadTime="-1" heatPerShot=".15" cooldownTime="5.5" isEnergyBased="true" chargeShotTime="-1" maxHeat="200"
+					isExplosive="false" blastDamage="0" blastRadius="0" blastImpulse="0"
+					loopSound="true">
+  	<HUD shader="Default" baseTexture="Data/Images/Hud_Base.png" reticleTexture="Data/Images/Reticle.png" reticleSize="16,16" spriteSize="223,223" spritePivot="0.5,0.0">
+  		<Animation name="Idle" shader="Default" spriteSheet="Data/Images/TraceRifle3x1.png" cellCount="3,1" secondsPerFrame="0.125" startFrame="0" endFrame="0"/>
+  		<Animation name="Attack" shader="Default" spriteSheet="Data/Images/TraceRifle3x1.png" cellCount="3,1" secondsPerFrame="0.055" startFrame="1" endFrame="2"/>
+  	</HUD>
+  	<Sounds>
+		<Sound sound="Fire" name="Data/Audio/LaserLoop.mp3"/>
+		<Sound sound="Beep" name="Data/Audio/BeepWarning.mp3"/>
+		<Sound sound="Steam" name="Data/Audio/SteamRelease.mp3"/>
+		<Sound sound="Recharge" name="Data/Audio/CoolDownComplete.mp3"/>
+  	</Sounds>
+  </WeaponDefinition>
+  <!-- Demon Melee -->
+  <WeaponDefinition name="DemonMelee" refireTime="2.0" meleeCount="1" meleeArc="180.0" meleeRange="0.75" meleeDamage="2.0~4.0" meleeImpulse="2.0">
+    <Sounds>
+      <Sound sound="Fire" name="Data/Audio/DemonAttack.wav"/>
+    </Sounds>
+  </WeaponDefinition>
+</Definitions>

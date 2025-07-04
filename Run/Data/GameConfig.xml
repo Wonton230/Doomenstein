@@ -1,0 +1,12 @@
+<GameConfig
+	defaultMap="TestMap"
+  musicVolume="0.1"
+  mainMenuMusic="Data/Audio/Music/MainMenu_InTheDark.mp2"
+  gameMusic="Data/Audio/Music/E1M1_AtDoomsGate.mp2"
+  buttonClickSound="Data/Audio/Click.mp3"
+	windowAspect="2.0"
+/>
+<!--
+	defaultMap="MPMap"
+ -->
+

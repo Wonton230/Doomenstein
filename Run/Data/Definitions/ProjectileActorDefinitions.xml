@@ -1,0 +1,15 @@
+<Definitions>
+  <!-- Plasma Projectile -->
+  <ActorDefinition name="PlasmaProjectile" canBePossessed="false" corpseLifetime="0.3" visible="true" color="0,0,255,255">
+    <Collision radius="0.075" height="0.15" collidesWithWorld="true" collidesWithActors="true" damageOnCollide="5.0~10.0" impulseOnCollide="4.0" dieOnCollide="true"/>
+    <Physics simulated="true" turnSpeed="0.0" flying="true" drag="0.0" />
+    <Visuals size="0.25,0.25" pivot="0.5,0.5" billboardType="FullOpposing" renderLit="false" renderRounded="false" shader="Default" spriteSheet="Data/Images/Plasma.png" cellCount="4,1">
+      <AnimationGroup name="Walk" secondsPerFrame="0.1" playbackMode="Loop">
+        <Direction vector="1,0,0"><Animation startFrame="0" endFrame="0"/></Direction>
+      </AnimationGroup>
+      <AnimationGroup name="Death" secondsPerFrame="0.1" playbackMode="Loop">
+        <Direction vector="1,0,0"><Animation startFrame="1" endFrame="3"/></Direction>
+      </AnimationGroup>
+    </Visuals>
+  </ActorDefinition>
+</Definitions>

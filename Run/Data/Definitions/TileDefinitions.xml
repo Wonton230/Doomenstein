@@ -1,0 +1,13 @@
+<Definitions>
+  <TileDefinition name="StoneFloor" isSolid="false" mapImagePixelColor="0,0,0" floorSpriteCoords="3,6"/>
+  <TileDefinition name="StoneBrickFloor" isSolid="false" mapImagePixelColor="120,120,120" floorSpriteCoords="3,4"/>
+  <TileDefinition name="GrassyFloor" isSolid="false" mapImagePixelColor="255,200,0" floorSpriteCoords="3,1"/>
+  <TileDefinition name="WoodFloor" isSolid="false" mapImagePixelColor="48,48,48" floorSpriteCoords="0,6" ceilingSpriteCoords="2,6"/>
+  <TileDefinition name="MarbleFloor" isSolid="false" mapImagePixelColor="103,255,169" floorSpriteCoords="5,1"/>
+  <TileDefinition name="OpenGrass" isSolid="false" mapImagePixelColor="0,128,0" floorSpriteCoords="2,1"/>
+  <TileDefinition name="OpenDirt" isSolid="false" mapImagePixelColor="127,51,20" floorSpriteCoords="5,2"/>
+  <TileDefinition name="StoneBrickWall" isSolid="true" mapImagePixelColor="20,0,20" floorSpriteCoords="3,4" wallSpriteCoords="3,4" secondaryRandom="4,4"/>
+  <TileDefinition name="BrickWall" isSolid="true" mapImagePixelColor="255,255,255" wallSpriteCoords="0,5" secondaryRandom="1,5"/>
+  <TileDefinition name="MarbleWall" isSolid="true" mapImagePixelColor="192,255,252" wallSpriteCoords="5,1" secondaryRandom="6,1"/>
+  <TileDefinition name="WoodWall" isSolid="true" mapImagePixelColor="143,136,82" wallSpriteCoords="1,6" secondaryRandom="2,6"/>
+</Definitions>
