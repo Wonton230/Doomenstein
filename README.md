@@ -1,7 +1,8 @@
 # Doomenstein
+![Alt Text](./DoomensteinIcon.png) 
+Doomenstein is a 2.5D First-Person Shooter emulating its namesake series, DOOM and Wolfenstein. It utilizes 3D raycasting and collision techniques, DX11 texturing and shaders, and fmod 3D audio. It comes with a Survival mode and a Versus mode. In Survival Mode the player will use their weapons to survive increasingly deadly waves of demons aiming for higher and higher waves survived. In versus mode, one player on the keyboard and mouse will compete with another locally on an Xbox controller. The first to 5 kills wins the game.
 
 ## Doomenstein v4.0:
-![Alt Text](./DoomensteinIcon.png)
 
 ### Features Added and Tested:
 
