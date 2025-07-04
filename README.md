@@ -7,7 +7,7 @@ Doomenstein is a 2.5D First-Person Shooter emulating its namesake series, DOOM a
 
 ### How to play:
 
-If you simply want to run Doomenstein, simply get this repository and run the ```Doomenstein_Release_x64.exe``` executable in ```Doomenstein/Run/```. (Don't worry, it's safe as I am not smart enough to know how to develop malware.)
+If you simply want to run Doomenstein, simply get this repository and run the ```Doomenstein_Release_x64.exe``` executable in ```Doomenstein/Run/```. (Don't worry, it's safe!)
 
 If you'd like to actually run the project out of Visual Studio you must set it up in accordance to [My Engine's](https://github.com/Wonton230/Engine) setup instructions with this game as the game project.
 
